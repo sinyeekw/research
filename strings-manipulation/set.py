@@ -34,3 +34,14 @@ print(biGram1.difference(biGram2))
 
 print("Check if 'se' is in both sets")
 print((('s','e') in biGram1) and (('s','e') in biGram2))
+
+# suggested ans
+# X = set(ngrams("paraparaparadise", 2))
+# Y = set(ngrams("paragraph", 2))
+
+# union = X | Y
+# intersection = X & Y
+# difference = X - Y
+
+# bigram = ('s', 'e')
+# print(bigram in X, bigram in Y)
